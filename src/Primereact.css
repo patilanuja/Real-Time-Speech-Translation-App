@@ -1,0 +1,33 @@
+.p-growl {
+    width: auto!important;
+    min-width: 22em;
+}
+
+.p-button {
+    border-radius: 0!important;
+    background-color: #005a9a!important;
+    border-color: #005a9a!important;
+}
+
+.p-menu {
+    border: none!important;
+    width: 100%;
+}
+
+.p-menuitem-link {
+    padding-left: 2em!important;
+}
+
+.p-menuitem-text {
+    font-size: 1.2em;
+}
+
+.p-growl.p-growl-topright {
+    top: 60px!important;
+}
+
+body .p-dialog .p-dialog-titlebar {
+    font-weight: 600;
+    font-size: 1.2em;
+    text-align: left;
+}

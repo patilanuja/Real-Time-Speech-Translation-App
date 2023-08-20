@@ -1,0 +1,1 @@
+export const CHAT_CHANGE = 'ACTION_CHAT_CHANGE';

@@ -1,0 +1,148 @@
+.secure-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.secure-item-contactlist {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.secure-item-contactlist-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+    gap: 0.5em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
+
+.secure-item-contactlist-item:hover {
+    background-color: #005a9a;
+    color: white;
+    cursor: pointer;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.secure-item-chat {
+    height: 100%;
+}
+
+.secure-item-chat-row-left {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: start;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+.secure-item-chat-row-right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: end;
+    align-items: start;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+.secure-item-chat-row-vertical {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: start;
+    gap: 0.5em;
+}
+
+.secure-item-record {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.secure-item-header {
+    position: absolute;
+    top: 0em;
+    height: 3em;
+    width: 100%;
+}
+
+.secure-item-main {
+    padding-top: 3em;
+    height: 100%;
+}
+
+.secure-header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+    background-color: black;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
+}
+
+.secure-header-item-user {
+    order: 0;
+    margin-left: 1.6em;
+
+    color: white;
+}
+
+.secure-header-item-button {
+    order: 1;
+    margin-right: 1em;
+}
+
+.secure-main-container {
+    display: flex;
+    height: 100%;
+    align-items: stretch;
+}
+
+.secure-main-item-menu {
+    width: 14em;
+    min-width: 10em;
+}
+
+.secure-main-item-content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.secure-menu {
+    padding-top: 2em;
+    height: 100%;
+}
+
+.secure-profile-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 2.78em 3em;
+}
+
+.secure-profile-item-row {
+    width: 100%;
+}
+
+.secure-profile-item-row-container {
+    display: flex;
+    height: 100%;
+}
+
+.secure-profile-item-row-container-item {
+    margin-right: 3em;
+}

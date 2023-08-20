@@ -1,0 +1,22 @@
+.auth {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateX(-50%) translatey(-50%);
+    -moz-transform: translateX(-50%) translatey(-50%);
+    transform: translateX(-50%) translatey(-50%);
+}
+
+.auth-login-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-login-item {
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+.auth-login-item input {
+    width: 20em;
+}
